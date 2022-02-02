@@ -5,6 +5,7 @@ typedef long long ll;
 
 // CodeChef - COPR16G
 
+//O(log(min(a,b)))
 // Iterative Euclidean algorithm
 ll gcd(ll a, ll b){
     if (!a|!b) return a|b;

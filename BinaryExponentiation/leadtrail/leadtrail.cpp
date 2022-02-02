@@ -5,6 +5,7 @@ using namespace std;
 
 // UVa 11029 - Leading and Trailing
 
+// O(logn)
 int binomexpmod(long n, long k) {
     int res = 1;
     n %= 1000;

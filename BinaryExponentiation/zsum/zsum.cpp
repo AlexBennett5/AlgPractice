@@ -7,6 +7,7 @@ using namespace std;
 
 typedef long long ll;
 
+//O(logn)
 ll binexp(ll n, ll k) {
     ll res = 1;
     n %= M;

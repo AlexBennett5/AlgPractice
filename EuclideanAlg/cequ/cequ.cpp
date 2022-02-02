@@ -3,6 +3,7 @@ using namespace std;
 
 typedef long long ll;
 
+//O(log(min(a,b)))
 ll gcd(ll a, ll b){
     if (!a || !b) return a|b;
     unsigned shift = __builtin_ctz(a|b);

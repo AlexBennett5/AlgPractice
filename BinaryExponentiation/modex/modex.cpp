@@ -4,6 +4,7 @@ using namespace std;
 
 // UVa 1230 - MODEX
 
+// O(logn)
 long long binomexp(long long a, long long b, long long n){
     a %= n;
     long long res = 1;
