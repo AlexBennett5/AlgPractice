@@ -1,8 +1,9 @@
 #include<iostream>
 #include<algorithm>
-#include <stdio.h>
-#include <string.h>
+#include<stdio.h>
+#include<string.h>
 #include<cmath>
+#include<vector>
 using namespace std;
 
 typedef long long ll;
